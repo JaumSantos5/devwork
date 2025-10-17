@@ -88,10 +88,9 @@ Error generating stack: `+o.message+`
 `;const Bx=z(Q.div)`
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  width: 100%;
-
-  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   text-align: justify;
 
   h2 {
@@ -101,17 +100,16 @@ Error generating stack: `+o.message+`
 
   p {
     font-size: 28px;
-    width: 540px;
     font-weight: 400;
-    text-align: left;
   }
 
   @media (max-width: 480px) {
-    margin-left: 0px;
-    text-align: left;
+
     
     h2 {      
       font-size: 22px;
+    text-align: center;
+
     }
 
     p {
@@ -135,7 +133,7 @@ Error generating stack: `+o.message+`
     flex-wrap: wrap;
 
     img {
-    margin-bottom: 12px;
+    
     width: 30px;
   }
   }
@@ -387,7 +385,7 @@ Error generating stack: `+o.message+`
     display: none;
   }
 `,O8="/devwork/assets/Eplay-Bm1uCszB.png",R8="/devwork/assets/foodNow-B-QZdvyx.png",D8="/devwork/assets/image2-BD55QRzA.png",M8="/devwork/assets/image-CAQBazqk.png",A8="/devwork/assets/imagem3-B44-orTz.png",j8="/devwork/assets/imegem4-CR8Yrd4c.png",I8="/devwork/assets/imagem5-jn2OwwXb.png",N8=[{name:"EPlay",description:"Projeto da EBAC para colocar em pratica o conhecimento em React e consumo de API, com acompanhamento dos tutores.",githubLink:"",siteLink:"https://eplay-rho-five.vercel.app/",imageRef:O8},{name:"Food Now",description:"Projeto freelancer feito para um polonês em html, css e javascript",githubLink:"",siteLink:"https://freela-restaurant.vercel.app/",imageRef:R8},{name:"Foundever",description:"Site criado para uma empresa que impulsiona marcas",githubLink:"",siteLink:"https://foundever.com/pt-br/",imageRef:I8},{name:"Loja De Roupas Cherri",description:"Site de vendas de roupas criado pelo shopify com linguagem de programação liquid",githubLink:"",siteLink:"https://cherrifashion.com/",imageRef:D8},{name:"Site de hospedagem de VSL",description:"Site criado para hospedar videos",githubLink:"",siteLink:"https://www.hostvsl.com.br/",imageRef:M8},{name:"One of A Kind Stories",description:"Site criado para venda de presentes",githubLink:"",siteLink:"https://oaks.com.br/",imageRef:A8},{name:"Casa do Trem",description:"Site de vitrine criado para mostrar Atelier",githubLink:"",siteLink:"https://esculturas-personalizadas.ateliercasadotrem.com.br/",imageRef:j8}],V8=()=>C.jsxs(x8,{id:"Projetos",className:"container",children:[C.jsx(P8,{children:C.jsx("h1",{children:"Projetos Desenvolvidos para clientes"})}),C.jsx(k8,{children:N8.map(e=>C.jsxs(T8,{variants:{hidden:{opacity:0,y:300},show:{opacity:1,y:0}},viewport:{once:!0},initial:"hidden",whileInView:"show",transition:{duration:.6},children:[C.jsx(E8,{className:"bg-image",src:e.imageRef,alt:""}),C.jsxs(C8,{className:"informations",children:[e.siteLink?C.jsxs("div",{children:[C.jsx("a",{target:"_blank",href:e.siteLink,className:"siteLink",children:C.jsx(S8,{size:32,color:"#fff"})}),C.jsx("a",{target:"_blank",href:e.githubLink,className:"gitHubLink",children:C.jsx("img",{src:ju,color:"#fff",alt:""})})]}):C.jsx("a",{target:"_blank",href:e.githubLink,className:"gitHubLinkSolo",children:C.jsx("img",{src:ju,alt:""})}),C.jsx(_8,{children:e.name}),C.jsx(L8,{children:e.description})]})]},e.name))})]}),z8=z.section`
-  margin-top:100px;
+  margin-top:50px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -416,7 +414,7 @@ Error generating stack: `+o.message+`
   position: relative;
   z-index: 2;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -475,7 +473,7 @@ Error generating stack: `+o.message+`
   }
    
      @media (max-width: 768px) {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
 
