@@ -92,7 +92,7 @@ export const InitialSection = () => {
         transition={{duration: 0.6, delay: 0.6}}
         initial="initial"
         animate="animation"
-        >Seja Bem vindo ao nosso portfólio</motion.h2>
+        >SEJA BEM VINDO AO NOSSO PORTFÓLIO</motion.h2>
         <motion.p
         variants={{
           initial: {x:100, opacity: 0},

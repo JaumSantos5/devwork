@@ -9,7 +9,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 export const AboutMeSection = () => {
   return (
     <S.AboutMeSectionContainer id='SobreMim'>
-      <h1>Sobre Nós</h1>
+      <h1>SOBRE NÓS</h1>
       <S.AboutMeSection>
         <S.AboutMeSectionImage  />
         <S.AboutMeSectionDescription>

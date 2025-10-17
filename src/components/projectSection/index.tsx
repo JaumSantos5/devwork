@@ -111,7 +111,7 @@ export const ProjectsSection = () => {
   return (
     <S.StyledSection id="Projetos" className='container'>
       <S.SectionTittle>
-        <h1>Projetos Desenvolvidos para clientes</h1>
+        <h1>PROJETOS DESENVOLVIDOS PARA CLIENTES</h1>
       </S.SectionTittle>
       <S.SectionProjects>
         {ProjetosMockados.map((projeto) => (
