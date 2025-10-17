@@ -66,7 +66,7 @@ export const DescriptionText = styled(motion.div)`
   margin-left: 25%;
 
   h2 {
-    margin-top: 40px;
+    margin-top: -100px;
     font-size: 42px;
   }
 
@@ -84,14 +84,18 @@ export const DescriptionText = styled(motion.div)`
 
     h2 {      
       font-size: 20px;
-    text-align: center;
+       text-align: left;
+     
+
 
     }
 
     p {
       width: 90%;
       font-size: 16px;
-    text-align: center;
+        text-align: left;
+          margin: 10% 0 ;
+
 
     }
 
