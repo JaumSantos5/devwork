@@ -47,7 +47,7 @@ export const Header = () => {
       whileHover="animation"
       target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['DEVWORK  ', 'SOFTWARE SOLUTIONS']}
+        words={['DevWork', 'Software Solutions']}
         loop={true}
         delaySpeed={10000}
         deleteSpeed={40}
@@ -62,7 +62,7 @@ export const Header = () => {
       whileHover="animation"
       target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['DEVWORK', 'SOFTWARE SOLUTIONS']}
+        words={['DevWork', 'Software Solutions']}
         loop={true}
         delaySpeed={5000}
         deleteSpeed={40}

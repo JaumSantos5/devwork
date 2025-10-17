@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight } from 'lucide-react'
 import * as S from './styles'
 import github from 'devicon/icons/github/github-original.svg'
 
-import efood from '../../assets/Efood.png'
+
 import eplay from '../../assets/Eplay.png'
 
 import foodNow from '../../assets/foodNow.png'
@@ -33,24 +33,24 @@ export const ProjetosMockados: ProjetosMockados[] = [
   //   githubLink: 'https://github.com/R4NP3R/projeto_mensalidade',
   //   imageRef: mensal
   // },
-  {
-    name: 'Efood',
-    description: 'Projeto da EBAC para colocar em pratica o conhecimento em React, com acompanhamento dos tutores.',
-    githubLink: 'https://github.com/R4NP3R/efood',
-    siteLink: 'https://efood-phi.vercel.app/',
-    imageRef: efood
-  },
+  // {
+  //   name: 'Efood',
+  //   description: 'Projeto da EBAC para colocar em pratica o conhecimento em React, com acompanhamento dos tutores.',
+  //   githubLink: 'https://github.com/R4NP3R/efood',
+  //   siteLink: 'https://efood-phi.vercel.app/',
+  //   imageRef: efood
+  // },
   {
     name: 'EPlay',
     description: 'Projeto da EBAC para colocar em pratica o conhecimento em React e consumo de API, com acompanhamento dos tutores.',
-    githubLink: 'https://github.com/R4NP3R/eplay',
+    githubLink: '',
     siteLink: 'https://eplay-rho-five.vercel.app/',
     imageRef: eplay
   },
   {
     name: 'Food Now',
     description: 'Projeto freelancer feito para um polonês em html, css e javascript',
-    githubLink: 'https://github.com/R4NP3R/freela_restaurant',
+    githubLink: '',
     siteLink: 'https://freela-restaurant.vercel.app/',
     imageRef: foodNow
   },

@@ -9,11 +9,11 @@ interface Props {
 export const Header = styled.header`
   position: fixed;
   z-index: 10;
-  left: 80px;
+
   display: flex;
   margin-top: 12px;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     position: relative;
     margin-top: 8px;
     top: 5px;
@@ -41,7 +41,7 @@ export const HeaderText = styled(motion.span)<Props>`
   }
 
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     font-size: 30px;
 
     img {

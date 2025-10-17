@@ -1,7 +1,7 @@
 import * as S from './styles'
-import video from '../../assets/BackgroundVideo.mp4'
+
 import { motion } from 'framer-motion'
-import fotoEmpresa from '../../assets/DevWork.jpeg'
+
 import { FaInstagram } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 
@@ -11,7 +11,7 @@ export const AboutMeSection = () => {
     <S.AboutMeSectionContainer id='SobreMim'>
       <h1>Sobre Nós</h1>
       <S.AboutMeSection>
-        <S.AboutMeSectionImage src={fotoEmpresa} alt="" />
+        <S.AboutMeSectionImage  />
         <S.AboutMeSectionDescription>
           <p>Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário.
 
@@ -32,7 +32,7 @@ export const AboutMeSection = () => {
                 }}
                 whileHover="animation"
                 target='_blank' href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                 <FaInstagram color="#E1306C" size={50}  />
+                 <FaInstagram color="#E1306C" size={40}  />
                 <p>/DevWork</p>
               </S.ContactsLinks>
             </S.ContactsListItem>
@@ -43,7 +43,7 @@ export const AboutMeSection = () => {
                 }}
                 whileHover="animation"
                 target='_blank' href="https://contate.me/5511921418276">
-                <FaWhatsapp color="#E1306C" size={50}  />
+                <FaWhatsapp color="#E1306C" size={40}  />
                 <p>/DevWork Softwere Solutions</p>
               </S.ContactsLinks>
             </S.ContactsListItem>
@@ -60,7 +60,7 @@ export const AboutMeSection = () => {
           loop
           muted
         >
-          <source src={video} type="video/mp4" />
+          
         </motion.video>
       </S.BackgroundVideo>
 

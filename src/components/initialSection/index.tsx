@@ -1,5 +1,5 @@
 import * as S from './styles'
-import computador from '../../assets/DevWork1.png'
+import computador from '../../assets/logodev.png'
 import github from 'devicon/icons/github/github-original.svg'
 import react from 'devicon/icons/react/react-original-wordmark.svg'
 import motionframer from 'devicon/icons/framermotion/framermotion-original.svg'
@@ -60,7 +60,7 @@ export const InitialSection = () => {
       <S.ProfileImage>
         <motion.img 
         src={computador}
-        alt="Homem mexendo no computador"
+        alt="logo"
         variants={{
           initial: {x: -80, opacity: 0},
           animation: {x: 0, opacity: 1}
@@ -101,8 +101,7 @@ export const InitialSection = () => {
         transition={{duration: 0.6, delay: 1}}
         initial="initial"
         animate="animation"
-        >Nós somos a DevWork Software Solutions e estamos comprometidos em trazer resultados para nossos clientes, sempre em busca
-        de entender o atual de tecnologia para trazer os melhores resultados. </motion.p>
+        >Nós somos a DevWork Software Solutions e estamos comprometidos em trazer resultados para nossos clientes. </motion.p>
         <S.TechnologiesIcons
           variants={logoVariant}
           initial="hidden"

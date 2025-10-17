@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const AboutMeSectionContainer = styled.section`
-margin-top:100px;
+  margin-top:100px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,15 +47,15 @@ export const AboutMeSection = styled.div`
 `
 
 export const AboutMeSectionImage = styled.img`
-  width: 340px;
+  width: 500px;
   margin-top: 2px;
   display: flex;
   border-radius: 100%;
   padding: 24px;
 
   @media (max-width: 480px) {
-    margin: 0;
-    width: 260px;
+    margin-bottom: -100px;
+    width: 400px;
   }
 
   @media (min-width: 1921px) {
@@ -67,7 +67,7 @@ export const AboutMeSectionDescription = styled.div`
   width: 800px;
   position: absolute;
   z-index: 2;
-  top: 50px;
+  top: 120px;
   right: 540px;
   font-size: 22px;  
   text-align: center;
@@ -85,7 +85,7 @@ export const AboutMeSectionDescription = styled.div`
 `
 
 export const Contacts = styled.div`
- margin-top: 100px;
+  margin-top: 450px;
   position: relative;
   z-index: 2;
   display: flex;
@@ -96,6 +96,12 @@ export const Contacts = styled.div`
   h1 {
     position: absolute;
   }
+   
+     @media (max-width: 768px) {
+    margin-top: 100px;
+  }
+
+
 
 `
 
@@ -105,7 +111,7 @@ export const ContactsListContainer = styled.div`
   width: 100%;
   display: flex;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     top: 60px;
   }
 `
@@ -116,7 +122,7 @@ export const ContactsList = styled.ul`
   align-items: center;
   flex-direction: column;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -127,7 +133,7 @@ export const ContactsListItem = styled.li`
   display: flex;
   align-items: center;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -148,11 +154,11 @@ export const ContactsLinks = styled(motion.a)`
     margin-right: 12px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     margin-top: 14px;
 
     p {
-      font-size: 20px
+      font-size: 23px
     }
 
     img {

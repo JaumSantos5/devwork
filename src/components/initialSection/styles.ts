@@ -21,7 +21,7 @@ export const StyledSection = styled.section`
 
 
 export const ProfileImage = styled.div`
-  width: 410px;
+  width: 300px;
   img {
     margin: 15px 0px;
     width: 400px;
@@ -111,6 +111,7 @@ export const TechnologiesIcons = styled(motion.div)`
 
     img {
     margin-bottom: 12px;
+    width: 30px;
   }
   }
 `
