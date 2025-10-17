@@ -2,16 +2,12 @@
 import { SquareArrowOutUpRight } from 'lucide-react'
 import * as S from './styles'
 import github from 'devicon/icons/github/github-original.svg'
-import mensal from '../../assets/mensal.png'
+
 import efood from '../../assets/Efood.png'
 import eplay from '../../assets/Eplay.png'
-import esports from '../../assets/ESports.png'
-import listaDeContatos from '../../assets/ListaDeContatos.png'
-import spiderman from '../../assets/SpiderMan.png'
-import breakingBad from '../../assets/BreakingBad.png'
-import disney from '../../assets/Disney.png'
+
 import foodNow from '../../assets/foodNow.png'
-import csgoNades from '../../assets/CSGranadas.png'
+
 import cherri from '../../assets/image2.png'
 import host from '../../assets/image.png'
 import oask from '../../assets/imagem3.png'

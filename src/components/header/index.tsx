@@ -1,7 +1,6 @@
 import {Typewriter,} from "react-simple-typewriter"
 import * as S from "./styles"
 import { useState } from "react"
-import { FaInstagram } from 'react-icons/fa'
 import { NavigationMenu } from "../navigationMenu"
 import { Variants, motion } from "framer-motion"
 
@@ -48,7 +47,7 @@ export const Header = () => {
       whileHover="animation"
       target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['DEVWORK  ', 'SOFTWERE SOLUTIONS']}
+        words={['DEVWORK  ', 'SOFTWARE SOLUTIONS']}
         loop={true}
         delaySpeed={10000}
         deleteSpeed={40}
@@ -63,7 +62,7 @@ export const Header = () => {
       whileHover="animation"
       target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['DEVWORK', 'SOFTWERE SOLUTIONS']}
+        words={['DEVWORK', 'SOFTWARE SOLUTIONS']}
         loop={true}
         delaySpeed={5000}
         deleteSpeed={40}

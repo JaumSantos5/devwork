@@ -101,7 +101,7 @@ export const InitialSection = () => {
         transition={{duration: 0.6, delay: 1}}
         initial="initial"
         animate="animation"
-        >Nós somos a DevWorks Software Solutions e estamos comprometidos em trazer resultados para nossos clientes, sempre em busca
+        >Nós somos a DevWork Software Solutions e estamos comprometidos em trazer resultados para nossos clientes, sempre em busca
         de entender o atual de tecnologia para trazer os melhores resultados. </motion.p>
         <S.TechnologiesIcons
           variants={logoVariant}
