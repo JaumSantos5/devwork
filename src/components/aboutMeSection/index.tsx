@@ -1,82 +1,69 @@
 import * as S from './styles'
 import video from '../../assets/BackgroundVideo.mp4'
 import { motion } from 'framer-motion'
-import github from 'devicon/icons/github/github-original.svg'
-import linkedin from 'devicon/icons/linkedin/linkedin-original.svg'
-import google from 'devicon/icons/google/google-original.svg'
-import fotoPerfil from '../../assets/foto_perfil.jpeg'
+import fotoEmpresa from '../../assets/DevWork.jpeg'
+import { FaInstagram } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
+
 
 export const AboutMeSection = () => {
   return (
     <S.AboutMeSectionContainer id='SobreMim'>
-      <h1>Sobre Mim</h1>
+      <h1>Sobre Nós</h1>
       <S.AboutMeSection>
-      <S.AboutMeSectionImage src={fotoPerfil} alt="" />
-      <S.AboutMeSectionDescription>
-        <p>Iniciei os estudos em programação, porquê desde os meus 10 anos gosto de mexer em computador, 
-        há dois anos vi que para me especializar na área teria que fazer um curso ou faculdade, e estava desempregado e fui atrás de uma oportunidade
-        de emprego em outra área para conquistar um computador melhor e iniciar no curso da EBAC.
-        </p>
-        <p>
-        A partir daí aprendi muitas coisas, porém sinto que tenho muito à aprender, estou buscando minha primeira experiência em desenvolvimento web
-        e pretendo cursar a faculdade de progamação, para obter conhecimento e me aprofundar na área.
-        </p>
-      </S.AboutMeSectionDescription>
+        <S.AboutMeSectionImage src={fotoEmpresa} alt="" />
+        <S.AboutMeSectionDescription>
+          <p>Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário.
+
+            Nosso objetivo é impulsionar negócios através da tecnologia, oferecendo soluções sob medida para cada cliente. Seja para criar um site institucional, uma loja virtual, um painel administrativo ou um sistema completo de gestão, nossa equipe trabalha com dedicação para entregar resultados profissionais e escaláveis.
+
+            Combinamos design atrativo, tecnologia atualizada e boas práticas de desenvolvimento para garantir que cada projeto seja único, seguro e preparado para crescer junto com o seu negócio.
+          </p>
+        </S.AboutMeSectionDescription>
       </S.AboutMeSection>
       <S.Contacts>
-        <h1>Converse Comigo!</h1>
+        <h1>Fale Conosco!</h1>
         <S.ContactsListContainer>
           <S.ContactsList>
             <S.ContactsListItem>
               <S.ContactsLinks
-              variants={{
-                animation: { rotate: 2, scale: 1.2 }
-              }}
-              whileHover="animation"
-              target='_blank' href="https://github.com/R4NP3R">
-                <img src={github} alt="" />
-                <p>/R4NP3R</p>
-              </S.ContactsLinks>
-            </S.ContactsListItem>
-            <S.ContactsListItem>
-              <S.ContactsLinks 
-                variants={{
-                  animation: { rotate: -2, scale: 1.2 }
-                }}
-                whileHover="animation"
-                target='_blank' href="https://www.linkedin.com/in/7-rafael-santos/">
-                  <img src={linkedin} alt="" />
-                  <p>/7-rafael-santos</p>
-              </S.ContactsLinks>
-            </S.ContactsListItem>
-            <S.ContactsListItem>
-              <S.ContactsLinks 
                 variants={{
                   animation: { rotate: 2, scale: 1.2 }
                 }}
                 whileHover="animation"
-                target='_blank' href="mailto:ssrafa.2014@gmail.com">
-                  <img src={google} alt="" />
-                  <p>ssrafa.2014@gmail.com</p>
+                target='_blank' href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                 <FaInstagram color="#E1306C" size={50}  />
+                <p>/DevWork</p>
+              </S.ContactsLinks>
+            </S.ContactsListItem>
+            <S.ContactsListItem>
+              <S.ContactsLinks
+                variants={{
+                  animation: { rotate: -2, scale: 1.2 }
+                }}
+                whileHover="animation"
+                target='_blank' href="https://contate.me/5511921418276">
+                <FaWhatsapp color="#E1306C" size={50}  />
+                <p>/DevWork Softwere Solutions</p>
               </S.ContactsLinks>
             </S.ContactsListItem>
           </S.ContactsList>
         </S.ContactsListContainer>
       </S.Contacts>
       <S.BackgroundVideo
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1}}
-      transition={{duration: 1.2}} 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.2 }}
       >
-        <motion.video      
-        autoPlay
-        loop
-        muted
+        <motion.video
+          autoPlay
+          loop
+          muted
         >
           <source src={video} type="video/mp4" />
         </motion.video>
       </S.BackgroundVideo>
-      
+
 
     </S.AboutMeSectionContainer>
   )

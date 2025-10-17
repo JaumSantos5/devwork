@@ -1,8 +1,7 @@
 import {Typewriter,} from "react-simple-typewriter"
 import * as S from "./styles"
 import { useState } from "react"
-import github from 'devicon/icons/github/github-original.svg'
-import linkedin from 'devicon/icons/linkedin/linkedin-original.svg'
+import { FaInstagram } from 'react-icons/fa'
 import { NavigationMenu } from "../navigationMenu"
 import { Variants, motion } from "framer-motion"
 
@@ -47,31 +46,31 @@ export const Header = () => {
       <motion.a
       variants={headerTitleMotion}
       whileHover="animation"
-      target="_blank" href="https://github.com/R4NP3R">
+      target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['Rafael S. Santos ', 'R4NP3R ']}
+        words={['DEVWORK  ', 'SOFTWERE SOLUTIONS']}
         loop={true}
         delaySpeed={10000}
         deleteSpeed={40}
         onDelay={switchIcons}
         onDelete={() => setIcons(false)}
         />
-        <img src={github} alt="icon" />
+      
       </motion.a> 
       : 
       <motion.a 
       variants={headerTitleMotion}
       whileHover="animation"
-      target="_blank" href="https://www.linkedin.com/in/7-rafael-santos/">
+      target="_blank" href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
         <Typewriter
-        words={['Rafael S. Santos ', 'R4NP3R ']}
+        words={['DEVWORK', 'SOFTWERE SOLUTIONS']}
         loop={true}
         delaySpeed={5000}
         deleteSpeed={40}
         onDelay={switchIcons}
         onDelete={() => setIcons(false)}
         />
-        <img src={linkedin} alt="icon" />
+        
       </motion.a>
       }
       <p>{"/>"}</p>

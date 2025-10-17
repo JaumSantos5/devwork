@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const AboutMeSectionContainer = styled.section`
+margin-top:100px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@ export const AboutMeSection = styled.div`
 
 export const AboutMeSectionImage = styled.img`
   width: 340px;
-  margin-top: 20px;
+  margin-top: 2px;
   display: flex;
   border-radius: 100%;
   padding: 24px;
@@ -66,9 +67,10 @@ export const AboutMeSectionDescription = styled.div`
   width: 800px;
   position: absolute;
   z-index: 2;
-  top: 120px;
-  right: 400px;
+  top: 50px;
+  right: 540px;
   font-size: 22px;  
+  text-align: center;
 
   @media (max-width: 480px) {
     position: static;
@@ -83,6 +85,7 @@ export const AboutMeSectionDescription = styled.div`
 `
 
 export const Contacts = styled.div`
+ margin-top: 100px;
   position: relative;
   z-index: 2;
   display: flex;

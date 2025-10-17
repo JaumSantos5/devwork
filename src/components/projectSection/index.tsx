@@ -12,6 +12,15 @@ import breakingBad from '../../assets/BreakingBad.png'
 import disney from '../../assets/Disney.png'
 import foodNow from '../../assets/foodNow.png'
 import csgoNades from '../../assets/CSGranadas.png'
+import cherri from '../../assets/image2.png'
+import host from '../../assets/image.png'
+import oask from '../../assets/imagem3.png'
+import casa from '../../assets/imegem4.png'
+import foundever from '../../assets/imagem5.png'
+
+
+
+
 
 interface ProjetosMockados {
   name: string,
@@ -64,25 +73,41 @@ export const ProjetosMockados: ProjetosMockados[] = [
   //   imageRef: esports
   // },  
   {
-    name: 'Lista de Contatos',
-    description: 'Desafio da EBAC, fazer um lista de contatos com Redux com adição, remoção e edição de contatos, inspirado no contatos da Google',
-    githubLink: 'https://github.com/R4NP3R/exercicio_lista_de_contatos_React',
-    siteLink: 'https://lista-de-contatos-opal.vercel.app/',
-    imageRef: listaDeContatos
+    name: 'Foundever',
+    description: 'Site criado para uma empresa que impulsiona marcas',
+    githubLink: '',
+    siteLink: 'https://foundever.com/pt-br/',
+    imageRef: foundever
+  },
+    {
+    name: 'Loja De Roupas Cherri',
+    description: 'Site de vendas de roupas criado pelo shopify com linguagem de programação liquid',
+    githubLink: '',
+    siteLink: 'https://cherrifashion.com/',
+    imageRef: cherri
+  },
+
+  {
+    name: 'Site de hospedagem de VSL',
+    description: 'Site criado para hospedar videos',
+    githubLink: '',
+    siteLink: 'https://www.hostvsl.com.br/',
+    imageRef: host
+  },
+
+  {
+    name: 'One of A Kind Stories',
+    description: 'Site criado para venda de presentes',
+    githubLink: '',
+    siteLink: 'https://oaks.com.br/',
+    imageRef: oask
   },
   {
-    name: 'Clone Disney+',
-    description: 'Projeto da EBAC para colocar em pratica o conhecimento em contrução de site com HTML e CSS',
-    githubLink: 'https://github.com/R4NP3R/clone_disneyplus',
-    siteLink: 'https://clone-disneyplus-theta.vercel.app/',
-    imageRef: disney
-  },
-  {
-    name: 'Spiderman Carrousel',
-    description: 'Carrousel do SpiderMan para colocar em prática conhecimentos de estilização e framer motion.',
-    githubLink: 'https://github.com/R4NP3R/NextJS-spiderman-carousel',
-    siteLink: 'https://spiderman-carousel.vercel.app/',
-    imageRef: spiderman
+    name: 'Casa do Trem',
+    description: 'Site de vitrine criado para mostrar Atelier',
+    githubLink: '',
+    siteLink: 'https://esculturas-personalizadas.ateliercasadotrem.com.br/',
+    imageRef: casa
   },  
 ]
 
