@@ -61,10 +61,9 @@ export const RoleText = styled(motion.div)`
 export const DescriptionText = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  width: 100%;
-
-  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   text-align: justify;
 
   h2 {
@@ -74,17 +73,16 @@ export const DescriptionText = styled(motion.div)`
 
   p {
     font-size: 28px;
-    width: 540px;
     font-weight: 400;
-    text-align: left;
   }
 
   @media (max-width: 480px) {
-    margin-left: 0px;
-    text-align: left;
+
     
     h2 {      
       font-size: 22px;
+    text-align: center;
+
     }
 
     p {
@@ -110,7 +108,7 @@ export const TechnologiesIcons = styled(motion.div)`
     flex-wrap: wrap;
 
     img {
-    margin-bottom: 12px;
+    
     width: 30px;
   }
   }
