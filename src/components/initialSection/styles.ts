@@ -24,7 +24,8 @@ export const ProfileImage = styled.div`
   width: 300px;
   img {
     margin: 15px 0px;
-    width: 400px;
+    width: 550px;
+    padding-bottom: 50px;
   }
 
   @media (max-width: 480px) {

@@ -15,7 +15,7 @@ export const GlobalCSS = createGlobalStyle`
     html, body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;   /* 🚨 Impede scroll horizontal */
+    overflow-x: hidden;  
   }
 
   body {

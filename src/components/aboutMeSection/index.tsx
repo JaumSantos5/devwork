@@ -13,11 +13,11 @@ export const AboutMeSection = () => {
       <S.AboutMeSection>
         <S.AboutMeSectionImage  />
         <S.AboutMeSectionDescription>
-          <p>Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário.
+          <p>Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário.<br/>
 
-            Nosso objetivo é impulsionar negócios através da tecnologia, oferecendo soluções sob medida para cada cliente. Seja para criar um site institucional, uma loja virtual, um painel administrativo ou um sistema completo de gestão, nossa equipe trabalha com dedicação para entregar resultados profissionais e escaláveis.
+            Nosso objetivo é impulsionar negócios através da tecnologia, oferecendo soluções sob medida para cada cliente. Seja para criar um site institucional, uma loja virtual, um painel administrativo ou um sistema completo de gestão, nossa equipe trabalha com dedicação para entregar resultados profissionais e escaláveis.<br/>
 
-            Combinamos design atrativo, tecnologia atualizada e boas práticas de desenvolvimento para garantir que cada projeto seja único, seguro e preparado para crescer junto com o seu negócio.
+            Combinamos design atrativo, tecnologia atualizada e boas práticas de desenvolvimento para garantir que cada projeto seja único, seguro e preparado para crescer junto com o seu negócio.<br/>
           </p>
         </S.AboutMeSectionDescription>
       </S.AboutMeSection>
