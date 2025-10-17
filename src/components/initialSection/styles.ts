@@ -32,7 +32,7 @@ export const ProfileImage = styled.div`
     flex-direction: column;
     align-items: center;
     img {
-    width: 220px;
+    width: 350px;
     }
 
   }
@@ -59,11 +59,10 @@ export const RoleText = styled(motion.div)`
 `
 
 export const DescriptionText = styled(motion.div)`
+width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+  align-items: baseline;
   text-align: justify;
 
   h2 {
@@ -74,9 +73,11 @@ export const DescriptionText = styled(motion.div)`
   p {
     font-size: 28px;
     font-weight: 400;
+    text-align: left;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    width: 80%;
 
     
     h2 {      
