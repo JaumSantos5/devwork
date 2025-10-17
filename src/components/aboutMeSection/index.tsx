@@ -32,7 +32,7 @@ export const AboutMeSection = () => {
                 }}
                 whileHover="animation"
                 target='_blank' href="https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                 <FaInstagram color="#E1306C" size={40}  />
+                 <FaInstagram color="#E1306C" size={30}  />
                 <p>/DevWork</p>
               </S.ContactsLinks>
             </S.ContactsListItem>
@@ -43,7 +43,7 @@ export const AboutMeSection = () => {
                 }}
                 whileHover="animation"
                 target='_blank' href="https://contate.me/5511921418276">
-                <FaWhatsapp color="#E1306C" size={40}  />
+                <FaWhatsapp color="#E1306C" size={30}  />
                 <p>/DevWork Softwere Solutions</p>
               </S.ContactsLinks>
             </S.ContactsListItem>

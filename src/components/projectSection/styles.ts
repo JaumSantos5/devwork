@@ -32,6 +32,7 @@ export const SectionProjects = styled(motion.div)`
   justify-content: center;
   column-gap: 24px;
   row-gap: 32px;
+  
 `
 
 export const ProjectContainer = styled(motion.div)`

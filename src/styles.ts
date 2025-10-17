@@ -9,6 +9,13 @@ export const GlobalCSS = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     color: #fff;
+    scroll-behavior: smooth;
+  }
+
+    html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;   /* 🚨 Impede scroll horizontal */
   }
 
   body {

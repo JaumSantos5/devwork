@@ -4,7 +4,7 @@ import * as S from './styles'
 const sectionItem = [
   {id: 'Inicio', name: 'inicio'},
   {id: 'Projetos', name: 'projetos'},
-  {id: 'SobreMim', name: 'sobre mim'}
+  {id: 'SobreMim', name: 'sobre nós'}
 ]
 
 export const NavigationMenu = () => {

@@ -72,7 +72,7 @@ export const AboutMeSectionDescription = styled.div`
   font-size: 22px;  
   text-align: center;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     position: static;
     width: 100%;
     font-size: 18px;
@@ -158,7 +158,7 @@ export const ContactsLinks = styled(motion.a)`
     margin-top: 14px;
 
     p {
-      font-size: 23px
+      font-size: 20px
     }
 
     img {

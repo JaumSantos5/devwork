@@ -59,11 +59,11 @@ export const RoleText = styled(motion.div)`
 `
 
 export const DescriptionText = styled(motion.div)`
-width: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  text-align: justify;
+  margin-left: 25%;
 
   h2 {
     margin-top: 40px;
@@ -77,18 +77,22 @@ width: 50%;
   }
 
   @media (max-width: 768px) {
-    width: 80%;
 
-    
+    width: 100%;
+    margin-left:0%;
+    padding: 10px;
+
     h2 {      
-      font-size: 22px;
+      font-size: 20px;
     text-align: center;
 
     }
 
     p {
-      width: 100%;
+      width: 90%;
       font-size: 16px;
+    text-align: center;
+
     }
 
   }
