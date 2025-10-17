@@ -86,11 +86,11 @@ Error generating stack: `+o.message+`
 
   }
 `;const Bx=z(Q.div)`
-width: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  text-align: justify;
+  margin-left: 25%;
 
   h2 {
     margin-top: 40px;
@@ -104,18 +104,22 @@ width: 50%;
   }
 
   @media (max-width: 768px) {
-    width: 80%;
 
-    
+    width: 100%;
+    margin-left:0%;
+    padding: 10px;
+
     h2 {      
-      font-size: 22px;
+      font-size: 20px;
     text-align: center;
 
     }
 
     p {
-      width: 100%;
+      width: 90%;
       font-size: 16px;
+    text-align: center;
+
     }
 
   }
@@ -149,7 +153,6 @@ width: 50%;
     position: relative;
     margin-top: 8px;
     top: 5px;
-    left: 10px;
   }
 `,i5=z(Q.span)`
   font-size: 40px;
@@ -172,7 +175,7 @@ width: 50%;
 
 
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 24px;
 
     img {
     height: 32px;
@@ -218,7 +221,7 @@ width: 50%;
   background-color: #2D5462;
   padding: 8px;
   border-radius: 8px;
-`,Xr=[{id:"Inicio",name:"inicio"},{id:"Projetos",name:"projetos"},{id:"SobreMim",name:"sobre mim"}],p8=()=>{const[e,t]=O.useState(Xr[0].id),n=()=>{for(let r=Xr.length-1;r>=0;r--){const i=document.getElementById(Xr[r].id);if(i){const o=i.getBoundingClientRect();o.top<=120&&o.bottom>=120&&t(Xr[r].id)}}};return window.addEventListener("scroll",n),C.jsx(l8,{variants:{close:{opacity:0,x:0},open:{opacity:1,x:0}},initial:"close",animate:"open",transition:{duration:.8,ease:"backOut"},children:C.jsx(u8,{children:Xr.map(r=>C.jsxs(c8,{children:[e===r.id&&C.jsx(d8,{layoutId:"active-pill",transition:{duration:.4}}),C.jsx(f8,{onClick:()=>t(r.id),$isActive:e===r.id,to:`${r.id}`,children:r.name})]},r.id))})})},h8=()=>{const[e,t]=O.useState(!1),[n,r]=O.useState(!1);function i(){const s=document.getElementById("header-text");t(!0),(s==null?void 0:s.textContent)==="<R4NP3R />"?r(!0):r(!1)}const o={animation:{scale:1.1,y:5}};return C.jsxs(r5,{className:"container",children:[C.jsxs(i5,{variants:{hidden:{y:-120},show:{y:0}},transition:{duration:.8,ease:"circIn"},initial:"hidden",animate:"show",id:"header-text",$iconIsactive:e,children:[C.jsx("p",{children:"<"}),n?C.jsx(Q.a,{variants:o,whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:C.jsx(Iu,{words:["DevWork","Software Solutions"],loop:!0,delaySpeed:1e4,deleteSpeed:40,onDelay:i,onDelete:()=>t(!1)})}):C.jsx(Q.a,{variants:o,whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:C.jsx(Iu,{words:["DevWork","Software Solutions"],loop:!0,delaySpeed:5e3,deleteSpeed:40,onDelay:i,onDelete:()=>t(!1)})}),C.jsx("p",{children:"/>"})]}),C.jsx(p8,{})]})},m8=zx`
+`,Xr=[{id:"Inicio",name:"inicio"},{id:"Projetos",name:"projetos"},{id:"SobreMim",name:"sobre nós"}],p8=()=>{const[e,t]=O.useState(Xr[0].id),n=()=>{for(let r=Xr.length-1;r>=0;r--){const i=document.getElementById(Xr[r].id);if(i){const o=i.getBoundingClientRect();o.top<=120&&o.bottom>=120&&t(Xr[r].id)}}};return window.addEventListener("scroll",n),C.jsx(l8,{variants:{close:{opacity:0,x:0},open:{opacity:1,x:0}},initial:"close",animate:"open",transition:{duration:.8,ease:"backOut"},children:C.jsx(u8,{children:Xr.map(r=>C.jsxs(c8,{children:[e===r.id&&C.jsx(d8,{layoutId:"active-pill",transition:{duration:.4}}),C.jsx(f8,{onClick:()=>t(r.id),$isActive:e===r.id,to:`${r.id}`,children:r.name})]},r.id))})})},h8=()=>{const[e,t]=O.useState(!1),[n,r]=O.useState(!1);function i(){const s=document.getElementById("header-text");t(!0),(s==null?void 0:s.textContent)==="<R4NP3R />"?r(!0):r(!1)}const o={animation:{scale:1.1,y:5}};return C.jsxs(r5,{className:"container",children:[C.jsxs(i5,{variants:{hidden:{y:-120},show:{y:0}},transition:{duration:.8,ease:"circIn"},initial:"hidden",animate:"show",id:"header-text",$iconIsactive:e,children:[C.jsx("p",{children:"<"}),n?C.jsx(Q.a,{variants:o,whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:C.jsx(Iu,{words:["DevWork","Software Solutions"],loop:!0,delaySpeed:1e4,deleteSpeed:40,onDelay:i,onDelete:()=>t(!1)})}):C.jsx(Q.a,{variants:o,whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:C.jsx(Iu,{words:["DevWork","Software Solutions"],loop:!0,delaySpeed:5e3,deleteSpeed:40,onDelay:i,onDelete:()=>t(!1)})}),C.jsx("p",{children:"/>"})]}),C.jsx(p8,{})]})},m8=zx`
   * {
     margin: 0;
     padding: 0;
@@ -227,6 +230,13 @@ width: 50%;
     list-style: none;
     text-decoration: none;
     color: #fff;
+    scroll-behavior: smooth;
+  }
+
+    html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;   /* 🚨 Impede scroll horizontal */
   }
 
   body {
@@ -297,6 +307,7 @@ width: 50%;
   justify-content: center;
   column-gap: 24px;
   row-gap: 32px;
+  
 `,T8=z(Q.div)`
   position: relative;
   width: 48%;
@@ -450,7 +461,7 @@ width: 50%;
   font-size: 22px;  
   text-align: center;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     position: static;
     width: 100%;
     font-size: 18px;
@@ -526,7 +537,7 @@ width: 50%;
     margin-top: 14px;
 
     p {
-      font-size: 23px
+      font-size: 20px
     }
 
     img {
@@ -548,4 +559,4 @@ width: 50%;
     object-fit: cover;
     filter: blur(5px);
   }
-`;var Zg={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},xh=we.createContext&&we.createContext(Zg),K8=["attr","size","title"];function G8(e,t){if(e==null)return{};var n=Q8(e,t),r,i;if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);for(i=0;i<o.length;i++)r=o[i],!(t.indexOf(r)>=0)&&Object.prototype.propertyIsEnumerable.call(e,r)&&(n[r]=e[r])}return n}function Q8(e,t){if(e==null)return{};var n={};for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){if(t.indexOf(r)>=0)continue;n[r]=e[r]}return n}function zs(){return zs=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},zs.apply(this,arguments)}function Ph(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(i){return Object.getOwnPropertyDescriptor(e,i).enumerable})),n.push.apply(n,r)}return n}function $s(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]!=null?arguments[t]:{};t%2?Ph(Object(n),!0).forEach(function(r){Y8(e,r,n[r])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):Ph(Object(n)).forEach(function(r){Object.defineProperty(e,r,Object.getOwnPropertyDescriptor(n,r))})}return e}function Y8(e,t,n){return t=X8(t),t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function X8(e){var t=Z8(e,"string");return typeof t=="symbol"?t:t+""}function Z8(e,t){if(typeof e!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||"default");if(typeof r!="object")return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return(t==="string"?String:Number)(e)}function qg(e){return e&&e.map((t,n)=>we.createElement(t.tag,$s({key:n},t.attr),qg(t.child)))}function Jg(e){return t=>we.createElement(q8,zs({attr:$s({},e.attr)},t),qg(e.child))}function q8(e){var t=n=>{var{attr:r,size:i,title:o}=e,s=G8(e,K8),a=i||n.size||"1em",l;return n.className&&(l=n.className),e.className&&(l=(l?l+" ":"")+e.className),we.createElement("svg",zs({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,s,{className:l,style:$s($s({color:e.color||n.color},n.style),e.style),height:a,width:a,xmlns:"http://www.w3.org/2000/svg"}),o&&we.createElement("title",null,o),e.children)};return xh!==void 0?we.createElement(xh.Consumer,null,n=>t(n)):t(Zg)}function J8(e){return Jg({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"},child:[]}]})(e)}function e7(e){return Jg({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"},child:[]}]})(e)}const t7=()=>C.jsxs(z8,{id:"SobreMim",children:[C.jsx("h1",{children:"Sobre Nós"}),C.jsxs($8,{children:[C.jsx(F8,{}),C.jsx(B8,{children:C.jsx("p",{children:"Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário. Nosso objetivo é impulsionar negócios através da tecnologia, oferecendo soluções sob medida para cada cliente. Seja para criar um site institucional, uma loja virtual, um painel administrativo ou um sistema completo de gestão, nossa equipe trabalha com dedicação para entregar resultados profissionais e escaláveis. Combinamos design atrativo, tecnologia atualizada e boas práticas de desenvolvimento para garantir que cada projeto seja único, seguro e preparado para crescer junto com o seu negócio."})})]}),C.jsxs(b8,{children:[C.jsx("h1",{children:"Fale Conosco!"}),C.jsx(H8,{children:C.jsxs(U8,{children:[C.jsx(wh,{children:C.jsxs(Sh,{variants:{animation:{rotate:2,scale:1.2}},whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:[C.jsx(J8,{color:"#E1306C",size:40}),C.jsx("p",{children:"/DevWork"})]})}),C.jsx(wh,{children:C.jsxs(Sh,{variants:{animation:{rotate:-2,scale:1.2}},whileHover:"animation",target:"_blank",href:"https://contate.me/5511921418276",children:[C.jsx(e7,{color:"#E1306C",size:40}),C.jsx("p",{children:"/DevWork Softwere Solutions"})]})})]})})]}),C.jsx(W8,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:1.2},children:C.jsx(Q.video,{autoPlay:!0,loop:!0,muted:!0})})]});function n7(){return C.jsxs(C.Fragment,{children:[C.jsx(m8,{}),C.jsx(h8,{}),C.jsx(Jx,{}),C.jsx(V8,{}),C.jsx(t7,{})]})}gl.createRoot(document.getElementById("root")).render(C.jsx(we.StrictMode,{children:C.jsx(n7,{})}));
+`;var Zg={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},xh=we.createContext&&we.createContext(Zg),K8=["attr","size","title"];function G8(e,t){if(e==null)return{};var n=Q8(e,t),r,i;if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);for(i=0;i<o.length;i++)r=o[i],!(t.indexOf(r)>=0)&&Object.prototype.propertyIsEnumerable.call(e,r)&&(n[r]=e[r])}return n}function Q8(e,t){if(e==null)return{};var n={};for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){if(t.indexOf(r)>=0)continue;n[r]=e[r]}return n}function zs(){return zs=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},zs.apply(this,arguments)}function Ph(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(i){return Object.getOwnPropertyDescriptor(e,i).enumerable})),n.push.apply(n,r)}return n}function $s(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]!=null?arguments[t]:{};t%2?Ph(Object(n),!0).forEach(function(r){Y8(e,r,n[r])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):Ph(Object(n)).forEach(function(r){Object.defineProperty(e,r,Object.getOwnPropertyDescriptor(n,r))})}return e}function Y8(e,t,n){return t=X8(t),t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function X8(e){var t=Z8(e,"string");return typeof t=="symbol"?t:t+""}function Z8(e,t){if(typeof e!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||"default");if(typeof r!="object")return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return(t==="string"?String:Number)(e)}function qg(e){return e&&e.map((t,n)=>we.createElement(t.tag,$s({key:n},t.attr),qg(t.child)))}function Jg(e){return t=>we.createElement(q8,zs({attr:$s({},e.attr)},t),qg(e.child))}function q8(e){var t=n=>{var{attr:r,size:i,title:o}=e,s=G8(e,K8),a=i||n.size||"1em",l;return n.className&&(l=n.className),e.className&&(l=(l?l+" ":"")+e.className),we.createElement("svg",zs({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,s,{className:l,style:$s($s({color:e.color||n.color},n.style),e.style),height:a,width:a,xmlns:"http://www.w3.org/2000/svg"}),o&&we.createElement("title",null,o),e.children)};return xh!==void 0?we.createElement(xh.Consumer,null,n=>t(n)):t(Zg)}function J8(e){return Jg({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"},child:[]}]})(e)}function e7(e){return Jg({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"},child:[]}]})(e)}const t7=()=>C.jsxs(z8,{id:"SobreMim",children:[C.jsx("h1",{children:"Sobre Nós"}),C.jsxs($8,{children:[C.jsx(F8,{}),C.jsx(B8,{children:C.jsx("p",{children:"Na DevWork Software Solutions, transformamos ideias em soluções digitais eficientes. Somos uma empresa especializada na criação de sites modernos e no desenvolvimento de sistemas personalizados, sempre com foco em desempenho, funcionalidade e experiência do usuário. Nosso objetivo é impulsionar negócios através da tecnologia, oferecendo soluções sob medida para cada cliente. Seja para criar um site institucional, uma loja virtual, um painel administrativo ou um sistema completo de gestão, nossa equipe trabalha com dedicação para entregar resultados profissionais e escaláveis. Combinamos design atrativo, tecnologia atualizada e boas práticas de desenvolvimento para garantir que cada projeto seja único, seguro e preparado para crescer junto com o seu negócio."})})]}),C.jsxs(b8,{children:[C.jsx("h1",{children:"Fale Conosco!"}),C.jsx(H8,{children:C.jsxs(U8,{children:[C.jsx(wh,{children:C.jsxs(Sh,{variants:{animation:{rotate:2,scale:1.2}},whileHover:"animation",target:"_blank",href:"https://www.instagram.com/devwork_sofwaresolutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",children:[C.jsx(J8,{color:"#E1306C",size:30}),C.jsx("p",{children:"/DevWork"})]})}),C.jsx(wh,{children:C.jsxs(Sh,{variants:{animation:{rotate:-2,scale:1.2}},whileHover:"animation",target:"_blank",href:"https://contate.me/5511921418276",children:[C.jsx(e7,{color:"#E1306C",size:30}),C.jsx("p",{children:"/DevWork Softwere Solutions"})]})})]})})]}),C.jsx(W8,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:1.2},children:C.jsx(Q.video,{autoPlay:!0,loop:!0,muted:!0})})]});function n7(){return C.jsxs(C.Fragment,{children:[C.jsx(m8,{}),C.jsx(h8,{}),C.jsx(Jx,{}),C.jsx(V8,{}),C.jsx(t7,{})]})}gl.createRoot(document.getElementById("root")).render(C.jsx(we.StrictMode,{children:C.jsx(n7,{})}));
